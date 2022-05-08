@@ -1,0 +1,134 @@
+body {
+background-color: #1f2937;
+color: white;
+font-family: 'Roboto', sans-serif;
+}
+
+.whitebackground {
+background-color: white;
+color: black;
+}
+
+div.headergroup {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+  
+}
+
+ul.headerlinks {
+display: flex;
+flex-direction: row;
+gap: 25px;
+}
+
+ul {
+list-style: none;
+padding: 0;
+margin: 0;    
+}
+
+.headerlogo {
+font-size: 24px;
+color: #f9faf8;
+font-weight: bold;
+}
+
+.awesome {
+display: flex;
+flex-direction: row;
+padding: 70px;
+}
+
+.thiswebsiteisawesome {
+font-size: 48px;
+font-weight: bolder;
+color: #f9faf8;
+}
+
+.placeholder {
+background-color: grey;
+width: 100%;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+}
+
+.placeholdertext {
+color: white;
+}
+
+.awesome1 {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+.awesome button {
+background-color: #3882f6;
+color: white;
+font-weight: bold;
+width: 100px;
+padding: 7.5px 15px;
+border-radius: 5px;
+border: 0px;
+margin-top: 10px;
+}
+
+.randominfo {
+font-size: 36px;
+font-weight: bolder;
+color: #1f2937;
+display: flex;
+justify-content: center;
+padding: 40px;
+}
+
+.fourbox{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;   
+}
+
+/*.boxgroup {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}*/
+
+.box1 {
+margin: auto;
+width: 50%;
+border: solid #3882f6 3px;
+padding-top: 120px;
+border-radius: 10px;
+}
+
+.subtext {
+text-align: center;
+}
+
+.inspiringquote {
+background-color: #e5e7eb;
+color: #1f2937;
+font-size: 36px;
+font-style: italic;
+text-align: center;
+
+padding: 70px 0px 70px 0px;
+}
+
+.thor {
+font-weight: bold;
+text-align: end;
+margin-right: 50px;
+}
+
+.calltoaction {
+background-color: #3882f6;
+margin-bottom: 200px;
+}
+
+
